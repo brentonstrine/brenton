@@ -1,0 +1,41 @@
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+h3 {
+    color: gray;
+    margin-top: -4px;
+}
+
+.header-text {
+    text-align: center;
+    border: solid 1px gray;
+    padding: 20px;
+    margin-bottom: -1px;
+}
+
+
+.container {
+}
+
+nav {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    position: absolute;
+    width: 159px;
+}
+
+.main-content {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 20px;
+    margin-left: 200px;
+}
