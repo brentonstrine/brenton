@@ -29,6 +29,25 @@ nav {
     padding: 20px;
     position: absolute;
     width: 159px;
+    font-family: sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin-top: 10px;
+}
+
+nav a {
+    color: black;
+}
+
+.current-page {
+    font-weight: bold;
 }
 
 .main-content {
@@ -40,7 +59,8 @@ nav {
     vertical-align: top;
     padding: 20px;
     margin-left: 200px;
-    width: calc(100% - 242px); // margin left + padding + padding + border + border = 242
+    width: calc(100% - 242px); /* margin left + padding + padding + border + border = 242 */
+    min-height: 200px;
 }
 
 .footer {
