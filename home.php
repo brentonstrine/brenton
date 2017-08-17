@@ -1,14 +1,13 @@
 <link href="styles.css" rel="stylesheet">
 
 <h1 class="header-text">My Homepage</h1>
-
+<!--
+<div class="horizontalNav">
+    nav
+</div>
+-->
 <div class="container">
-    <nav>
-        <ul>
-            <li><a href="home.html" class="current-page">Home</a></li>
-            <li><a href="mystory.html">Developer Story</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="resume.html">Resume</a></li>
+    <nav><?php $page = 'home'; include('navbar.php'); ?>
     </nav>
 
     <div class="main-content">

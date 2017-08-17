@@ -4,11 +4,7 @@
 
 <div class="container">
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="mystory.html">Developer Story</a></li>
-            <li><a href="links.html" class="current-page">Links</a></li>
-            <li><a href="resume.html">Resume</a></li>
+        <?php $page = 'links'; include('navbar.php'); ?>
     </nav>
 
     <div class="main-content">

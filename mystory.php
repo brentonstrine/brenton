@@ -1,14 +1,12 @@
+
+
 <link href="styles.css" rel="stylesheet">
 
 <h1 class="header-text">My Developer Story</h1>
 
 <div class="container">
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="mystory.html" class="current-page">Developer Story</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="resume.html">Resume</a></li>
+        <?php $page = 'mystory'; include('navbar.php'); ?>
     </nav>
 
     <div class="main-content">
