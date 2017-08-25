@@ -11,7 +11,7 @@
         <ul>
             <li><a href="https://github.com/brentonstrine">GitHub</a>
                 <ul>
-                    <li><a href="https://github.com/brentonstrine/brenton">Source code fro this websites!</a></li>
+                    <li><a href="https://github.com/brentonstrine/brenton">Source code for this websites!</a></li>
                 </ul>
             </li>
 
