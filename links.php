@@ -9,7 +9,12 @@
 
     <div class="main-content">
         <ul>
-            <li><a href="https://github.com/brentonstrine">GitHub</a></li>
+            <li><a href="https://github.com/brentonstrine">GitHub</a>
+                <ul>
+                    <li><a href="https://github.com/brentonstrine/brenton">Source code fro this websites!</a></li>
+                </ul>
+            </li>
+
             <li><a href="https://www.linkedin.com/in/brentonstrine/">LinkedIn</a></li>
         </ul>
     </div>
